@@ -49,7 +49,7 @@ class Form extends Component {
             description: `**Username**: <@${this.state.user.id}> (${this.state.user.username}#${this.state.user.discriminator})\n` +
                 "**Adınız, Yaşınız ve Discord Adınız?**\n" + this.state.ban_reason + "\n\n" +
                 "**Hangi Departmanda Çalışmak İstiyorsunuz, Daha Önce Hangi Sunucularda Çalıştınız?**\n" + this.state.unban_reason + "\n\n" +
-                "**Sizi Neden Seçelim?**\n" + this.state.future_behavior + "\n\n " +
+                "**Sizi Neden Seçelim?**\n" + this.state.future_behavior + "\n\n ",
                 // "**Actions**\n" +
                 // `[Approve appeal and unban user](${unbanUrl}?token=${encodeURIComponent(createJwt(unbanInfo))})`,
             timestamp: now.toISOString()
